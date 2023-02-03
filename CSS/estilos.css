@@ -1,0 +1,64 @@
+body{
+    
+    background-image: url("../IMG/jerez.png");
+    background-size:cover;
+    position:relative;
+}
+
+#reiniciar{
+    display: none;
+}
+
+.titulo{
+    text-align: center;
+    background-image: url("../IMG/titulo.png");
+    margin-top: 0px;
+    padding-top: 10px;
+    height: 90px;
+}
+
+#circuito{
+    background-color: slategray;
+    border-right-style:double;
+    border-right-color: white;
+    border-right-width: 2em;
+    margin-right: 10px;
+}
+
+#circuito div img{    
+    position:relative;
+    height: 60px;   
+    margin-left: 0px;
+}
+
+#contabla{
+
+    text-align: center;
+}
+
+#tablaFinal{
+
+    border-spacing: 2px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-style:solid;
+    border-collapse:separate;
+    border-color: rgba(39, 28, 194, 0.929);
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#select{
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+div p{
+    margin: 0 20px 0 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.3em;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Carrera de coches</title>
+
+  <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+  <script type="text/javascript" src="JS/jquery-3.6.1.min.js"></script>
+  <script src="JS/pac2.js"></script>
+
+</head>
+
+<body>
+  <div class="titulo">
+    <h1>Gran Premio Jquery</h1>
+  </div>
+  <div class="botones">
+    <label for="participantes" id="select">Participantes:</label>
+    <select name="participantes" id="participantes">
+      <option value="0" selected>0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select><br><br>
+    <p><button id="iniciar">Iniciar</button></p>
+    <p><button id="reiniciar">Reiniciar</button></p>
+  </div>
+    <div id="circuito">
+      <div id="bikes"></div>
+    </div>
+    <br>
+  <div id="contabla">
+    <table id="tablaFinal">
+      <thead>
+        <tr>
+          <th>Posición</th>
+          <th>Participante</th>
+        </tr>
+      </thead>
+      <tbody id="clasificacion">
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
